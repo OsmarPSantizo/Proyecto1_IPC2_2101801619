@@ -19,3 +19,7 @@ def inicio(request):
 
 def transferencia(request):
     return render(request,'transferencia.html')
+
+
+def pagos(request):
+    return render(request,'pagos.html')

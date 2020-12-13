@@ -24,4 +24,5 @@ urlpatterns = [
     path('esqueleto/', views.esqueleto),
     path('inicio/', views.inicio),
     path('transferencia/',views.transferencia),
+    path('pagos/',views.pagos),
 ]

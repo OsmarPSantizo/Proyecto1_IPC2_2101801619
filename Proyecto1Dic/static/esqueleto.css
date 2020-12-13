@@ -9,11 +9,15 @@
 	vertical-align: baseline;
 	box-sizing: border-box;
 	font-family: 'letrapro',cursive;
+
 }
 
 body{
-
 	padding-top:235px;
+	background-image:url(img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-attachment:;
+	background-size: cover
 }
 
 header{
