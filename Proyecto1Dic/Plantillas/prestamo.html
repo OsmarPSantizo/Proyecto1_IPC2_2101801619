@@ -1,0 +1,26 @@
+{% extends 'esqueleto.html' %}
+{% block content %}
+{%load static %}
+<link rel="stylesheet" href="{% static 'estiloprestamo.css' %}">
+<div id="formulario">
+
+<form>
+<p>Monto que desea prestar: </p>
+<p><input type="text" ></p>
+
+<p>Cuenta destino: </p>
+<select>
+	<option value ="1" selected>Seleccione la modalidad a pagar </option>
+	<option value ="2"> Quincenal </option>	
+	<option value ="3"> Mensual </option>
+	<option value ="4"> Trimestral </option>				
+	</select>
+
+<p>
+	<input type="submit" value="Solicitar Prestamo">
+</p>
+</form>
+<p><button onclick="location.href='http://localhost:8000/inicio/'">Regresar</button></p>
+</div>
+
+{% endblock %}

@@ -1,22 +1,27 @@
 {% extends 'esqueleto.html' %}
 {% block content %}
 {%load static %}
-<link rel="stylesheet" href="{% static 'estilopagos1.css' %}">
+<link rel="stylesheet" href="{% static 'estilopreauto.css' %}">
 <div id="formulario">
 <form>
-<p>Cuenta con la que se desea pagar: 
-	<select id ="tipopago">
+<p>No. de cheque <input type="text" ></p>
+<p>Cuenta a debitar: 
+	<select id ="cuenta">
 	<option value ="1" selected>Aquí van las cuentas disponibles </option>	
 	</select>
 </p>
-
-<p>No. de Telefono <input type="text" >
-</p>
 <p>Monto:</p>
 <p><input type="text" ></p>
+
+<p>Nombre:</p>
+<p><input type="text" ></p>
+
+<p>Apellido:</p>
+<p><input type="text" ></p>
 <p>
-	<input type="submit" value="Pagar"></p>
+	<input type="submit" value="Autorizar cheque"></p>
 </form>
 <p><button onclick="location.href='http://localhost:8000/inicio/'">Regresar</button></p>
 </div>
+
 {% endblock %}

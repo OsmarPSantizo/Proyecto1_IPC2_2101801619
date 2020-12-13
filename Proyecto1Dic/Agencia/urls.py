@@ -24,8 +24,12 @@ urlpatterns = [
     path('esqueleto/', views.esqueleto),
     path('inicio/', views.inicio),
     path('transferencia/',views.transferencia),
-    path('pagos/',views.pagos),
+    path('pagosc/',views.pagosc),
+    path('pagose/',views.pagose),
     path('pagos1/',views.pagos1),
     path('pagos2/',views.pagos2),
     path('gestiones/',views.gestiones),
+    path('preauto/',views.preauto),
+    path('prestamo/',views.prestamos),
+    path('addcuenta/',views.addcuenta),
 ]

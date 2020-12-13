@@ -1,0 +1,13 @@
+{% extends 'esqueleto.html' %}
+{% block content %}
+{%load static %}
+<link rel="stylesheet" href="{% static 'estilopagos.css' %}">
+<div id="contenedor">
+	<div class="opciones">
+		<p>¿Que servicio deseas pagar?</p>
+		<p><button onclick="location.href='http://localhost:8000/pagos1/'">Agua o Luz</button> </p>
+	<p><button onclick="location.href='http://localhost:8000/pagos2/'">Telefono</button></p>
+	
+
+</div>
+{% endblock %}
