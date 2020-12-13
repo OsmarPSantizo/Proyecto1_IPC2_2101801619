@@ -1,32 +1,28 @@
-@font-face{
-	font-family:letrapro;
-	src: url(font/Letra2.ttf.ttf);}
-
-*{
-	font-family: 'letrapro',cursive;
-}
-
-
-select{
-	width: 300px;
-	position: relative;
-	padding: 10px;
-	margin:10px;
-}
-
 input{
 	padding:10px;
 	margin:10px;
 	position: relative;
+	font-size: 20px;
 }
 p{
 	font-size: 20px;
 	
 }
+
+button{
+	padding:10px;
+	margin:10px;
+	position: relative;
+	font-family: 'letrapro',cursive;
+	font-size: 20px;
+}
 form{
 	background-color: #D3460D;
 	position: relative;
 	text-align: center;
+}
+option{
+	font-size: 20px;
 }
 
 #formulario{

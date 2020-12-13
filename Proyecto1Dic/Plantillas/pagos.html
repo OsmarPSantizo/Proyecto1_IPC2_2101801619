@@ -1,19 +1,14 @@
 {% extends 'esqueleto.html' %}
 {% block content %}
 {%load static %}
-<div id="formulario">
-<form>
-<p>Tipo de pago a realizar: 
-	<select id ="tipopago">
-	<option value ="1" selected>Aqui van todos los servicios disponibles </option>	
-	</select>
-</p>
+<link rel="stylesheet" href="{% static 'estilopagos.css' %}">
+<div id="contenedor">
+	<div class="opciones">
+		<p>¿Que servicio deseas pagar?</p>
+		<p><button onclick="location.href='http://localhost:8000/pagos1/'">Agua o Luz</button> 
+	</p>
+	<p><button onclick="location.href='http://localhost:8000/pagos2/'">Telefono</button></p>
+	
 
-<p>No. de la factura <input type="text" >
-</p>
-<p>Monto: <input type="text" ></p>
-<p>
-	<input type="submit" value="Pagar"></p>
-</form>
 </div>
 {% endblock %}

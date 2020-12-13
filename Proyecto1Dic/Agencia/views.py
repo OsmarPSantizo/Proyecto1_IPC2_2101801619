@@ -23,3 +23,10 @@ def transferencia(request):
 
 def pagos(request):
     return render(request,'pagos.html')
+def pagos1(request):
+    return render(request,'pagos1.html')
+def pagos2(request):
+    return render(request,'pagos2.html')
+
+def gestiones(request):
+    return render(request,'gestiones.html')

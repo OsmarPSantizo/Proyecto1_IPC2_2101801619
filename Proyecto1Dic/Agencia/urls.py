@@ -25,4 +25,7 @@ urlpatterns = [
     path('inicio/', views.inicio),
     path('transferencia/',views.transferencia),
     path('pagos/',views.pagos),
+    path('pagos1/',views.pagos1),
+    path('pagos2/',views.pagos2),
+    path('gestiones/',views.gestiones),
 ]

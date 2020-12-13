@@ -1,0 +1,14 @@
+{% extends 'esqueleto.html' %}
+{% block content %}
+{%load static %}
+<link rel="stylesheet" href="{% static 'estilogestiones.css' %}">
+<div id="contenedor">
+	<div class="opciones">
+		<p>¿Que servicio deseas pagar?</p>
+		<p><input type="submit" value="Agua o Luz">
+	</p>
+	<p><input type="submit" value="Telefono"></p>
+	
+
+</div>
+{% endblock %}
