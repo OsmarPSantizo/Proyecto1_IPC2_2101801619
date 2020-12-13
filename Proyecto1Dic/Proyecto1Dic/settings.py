@@ -131,7 +131,7 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'static','static')
 STATIC_URL = '/static/'
 STATICFILES_DIRS=(
-    os.path.join(BASE_DIR,'static','static2'),
+    os.path.join(BASE_DIR,'static'),
 )
 
 MEDIA_ROOT = RUTA_PROYECTO.child('media')

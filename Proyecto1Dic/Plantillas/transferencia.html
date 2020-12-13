@@ -1,0 +1,26 @@
+{% extends 'esqueleto.html' %}
+{% block content %}
+{%load static %}
+<link rel="stylesheet" href="{% static 'estilotransferencia.css' %}">	
+<div id="formulario">
+<form>
+<p>Cuenta origen: 
+	<select id ="cuentaorigen">
+	<option value ="1" selected>Aqui van todas la cuentas </option>	
+	</select>
+</p>
+
+<p>Cuenta destino: 
+	<select id ="cuentadestino">
+	<option value ="1" selected>Aqui van todas la cuentas </option>	
+	</select>
+</p>
+<p>Monto: <input type="text" ></p>
+<p>
+	<input type="submit" value="Agregar Cuenta">
+	<input type="submit" value="Eliminar Cuenta">
+</p>
+<p><input type="submit" value="Aceptar"></p>
+</form>
+</div>
+{% endblock %}

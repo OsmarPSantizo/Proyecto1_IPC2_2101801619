@@ -21,4 +21,7 @@ urlpatterns = [
     path('', views.index),
     path('prueba/',views.prueba),
     path('kpop/', views.paginakpop),
+    path('esqueleto/', views.esqueleto),
+    path('inicio/', views.inicio),
+    path('transferencia/',views.transferencia),
 ]

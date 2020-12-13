@@ -1,22 +1,31 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
+{% load static %}
 	
 	<head>
 		<meta charset="utf-8">
 		<title>Inicio de Sesión</title>
-		<link rel="stylesheet" href="estilo.css">
+		<link rel="stylesheet" href="{% static 'styleindex.css' %}">
 	</head>
 	<body>
 		<header> 
-			<p>Banca en Linea Banco Nombre </p>
+			<h1>Banca en Linea Banco El Ahorro </h1> 
+		<div id="logo"><img src="{% static 'img/logo1.png' %}" width="200px" height="90px" align="center"></div>
 		</header>
-			<section class ="forminises">
-				<h3>Inicio de Sesión</h3>
-				<input class="formu" type="text" name= "usuario" id="usuario" placeholder="Usuario">
-				<input class="formu" type="text" name= "contraseña" id="contraseña" placeholder="Contraseña">
-				<input class="boton" type="submit" value="Iniciar sesión">
-			</section>
+
+		<div id="formulario">
+	<form>
+		<p><input type="text" name= "usuario" id="usuario" placeholder="Usuario">
+		</p>
+
+<p><input type="text" name= "contraseña" id="contraseña" placeholder="Contraseña">
+</p>
+<p>
+	<input type="submit" value="Iniciar Sesión">
+</p>
+
+</form>
+</div>
 
 	</body>
 

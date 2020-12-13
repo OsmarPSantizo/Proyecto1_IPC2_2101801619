@@ -1,0 +1,47 @@
+@font-face{
+	font-family:letrapro;
+	src: url(font/Letra2.ttf.ttf);}
+
+*{
+	font-family: 'letrapro',cursive;
+}
+body{
+	background-image:url(img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-attachment:;
+	background-size: cover
+}
+
+
+select{
+	width: 300px;
+	position: relative;
+	padding: 10px;
+	margin:10px;
+}
+
+input{
+	padding:10px;
+	margin:10px;
+	position: relative;
+}
+p{
+	font-size: 20px;
+	
+}
+form{
+	background-color: #D3460D;
+	position: relative;
+	text-align: center;
+}
+
+#formulario{
+	width:400px;
+	background: #A72D23;
+	padding: 20px;
+	margin:auto;
+	margin-top:100px;
+	border-radius: 4px;
+	color:white;
+
+}

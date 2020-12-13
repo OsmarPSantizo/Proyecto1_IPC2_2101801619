@@ -10,3 +10,12 @@ def prueba(request):
 
 def paginakpop(request):
     return render(request, 'propiedades_ubicación.html')
+
+def esqueleto(request):
+    return render(request,'esqueleto.html')
+
+def inicio(request):
+    return render(request,'inicio.html')
+
+def transferencia(request):
+    return render(request,'transferencia.html')
