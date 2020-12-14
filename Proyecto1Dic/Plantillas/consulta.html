@@ -1,0 +1,16 @@
+{% extends 'esqueleto.html' %}
+{% block content %}
+{%load static %}
+<link rel="stylesheet" href="{% static 'estilogestiones.css' %}">
+<div id="contenedor">
+	<div class="opciones">
+		<p>¿Que Consulta necesitas realizar?</p> 
+	<p><button onclick="location.href='http://localhost:8000/estadocuenta/'">Ver Estado de cuenta</button> </p>
+	<p><button onclick="location.href='http://localhost:8000/estadotarjeta/'">Movimientos de Tarjeta</button> </p>
+	
+	<p><button onclick="location.href='http://localhost:8000/acdescuenta/'">Activar o Desactivar cuenta</button> </p>
+
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends 'esqueleto.html' %}
+{% block content %}
+{%load static %}
+<link rel="stylesheet" href="{% static 'estiloestadocuenta.css' %}">
+<h1>Estado de cuenta</h1>
+
+<p>Cuenta : 
+	<select id ="cuenta">
+	<option value ="1" selected>Aquí van las cuentas disponibles </option>	
+	</select> <input type="submit" value="Consultar">
+</p>
+        <table style= "width: 100%">
+		<thead>
+            <tr>
+		        <th>
+			       Fecha
+			    </th>
+			    <th>
+    			    Movimiento
+	    	    </th>
+	    		<th>
+        			Debito (Q.)
+	    		</th>
+	    		<th>
+        			credito (Q.)
+	    		</th>
+	    		<th>
+        			Saldo(Q.)
+	    		</th>
+		    </tr>
+        </thead>
+       <tr>
+            <td>13/12/2020</td>
+            <td>Retiro</td>
+             <td>100</td>
+            <td>0</td>
+            <td>2900</td>
+        </tr>
+         <tr>
+            <td>13/12/2020</td>
+            <td>Deposito</td>
+             <td>0</td>
+            <td>100</td>
+            <td>3000</td>
+        </tr>
+
+</table>
+
+<p><button onclick="location.href='http://localhost:8000/consulta/'">Regresar</button></p>
+
+{% endblock %}

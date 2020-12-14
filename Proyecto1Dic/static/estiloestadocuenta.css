@@ -1,0 +1,58 @@
+h1{
+        text-align: center;
+        font-size: 40px;
+        color:white;
+    }
+
+p{
+    text-align: center;
+        font-size: 30px;
+        margin: 10px;
+        color:white;
+}
+table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+th, td{
+        padding:10px;
+    }
+th{
+        font-family:sans-serif;
+        text-align: left;
+    }
+table{
+    position:relative;
+    background-color: rgba(49, 177, 180, 1);   
+    margin: auto;
+    }
+thead{
+       background-color: #A72D23; 
+       border-bottom: solid 5px #0F362D;
+       color:white;
+    }
+tr:nth-child(even){
+        background-color: rgba(25, 135, 137, 1);
+    }
+tr:hover td{
+        background-color: rgba(134, 75, 245, 1);
+        color: white;
+    }
+
+button{
+    padding:10px;
+    margin:10px;
+    position: relative;
+    font-family: 'letrapro',cursive;
+    font-size: 20px;
+}
+
+input{
+    padding:5px;
+    margin:10px;
+    position: relative;
+    font-size: 17px;
+} 
+
+
+/* https://www.youtube.com/watch?v=5XsSN4vTFK8 De aquí saqué el diseño de la tabla /*

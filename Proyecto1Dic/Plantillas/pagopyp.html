@@ -9,14 +9,11 @@
 	<option value ="1" selected>Aquí van las cuentas disponibles </option>	
 	</select>
 </p>
-
-<p>No. de Telefono <input type="text" >
-</p>
-<p>Monto:</p>
-<p><input type="text" ></p>
-<p>
-	<input type="submit" value="Pagar"></p>
+<input type="submit" value="Pagar planilla">
+<p><input type="button" onclick="location.href='http://localhost:8000/addplan/'" Value="Añadir cuenta a planilla">
+	
 </form>
-<p><button onclick="location.href='http://localhost:8000/pagosc/'">Regresar</button></p>
+<p><button onclick="location.href='http://localhost:8000/pagose/'">Regresar</button></p>
 </div>
+
 {% endblock %}

@@ -4,19 +4,16 @@
 <link rel="stylesheet" href="{% static 'estilopagos1.css' %}">
 <div id="formulario">
 <form>
-<p>Cuenta con la que se desea pagar: 
+<p>Cuenta: 
 	<select id ="tipopago">
 	<option value ="1" selected>Aquí van las cuentas disponibles </option>	
 	</select>
 </p>
 
-<p>No. de Telefono <input type="text" >
-</p>
-<p>Monto:</p>
-<p><input type="text" ></p>
 <p>
-	<input type="submit" value="Pagar"></p>
+	<input type="submit" value="Cambiar estado"></p>
 </form>
-<p><button onclick="location.href='http://localhost:8000/pagosc/'">Regresar</button></p>
+<p><button onclick="location.href='http://localhost:8000/consulta/'">Regresar</button></p>
 </div>
+
 {% endblock %}
